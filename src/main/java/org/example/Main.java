@@ -6,15 +6,15 @@ public class Main {
     }
 
     public static int add(int a, int b){
-        return 20;
+        return a + b;
     }
 
     public static boolean isEven(int n){
-        return false;
+        return n % 2 == 0;
     }
 
     public static int multiplication(int a ,int b){
-        return 12;
+        return a * b;
     }
 
     public static String turnStringInUpperCase(String word){
