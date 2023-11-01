@@ -18,10 +18,14 @@ public class Main {
     }
 
     public static String turnStringInUpperCase(String word){
-        return "HALLO";
+        return word.toUpperCase();
     }
 
     public static boolean isPositive(int a){
-        return False;
+        boolean state = false;
+        if (a > 0 ){
+            state = true;
+        }
+        return state;
     }
 }

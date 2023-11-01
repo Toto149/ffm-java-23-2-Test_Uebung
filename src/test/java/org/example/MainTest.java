@@ -37,9 +37,10 @@ class MainTest {
         //Given
         int a = 6;
         int b = 5;
-        int expected = 30;
+
 
         //When
+        int expected = 30;
         int actual = Main.multiplication(a,b);
 
         //Then
